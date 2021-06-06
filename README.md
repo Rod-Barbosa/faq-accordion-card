@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Rod-Barbosa/faq-accordion-card.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [gelatodigital.com/portfolio](https://gelatodigital.com/portfolio)
+- Live Site URL: [https://rodrigo-accordeon-faq-card.netlify.app/](https://rodrigo-accordeon-faq-card.netlify.app/)
 
 ## My process
 
