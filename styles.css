@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(238, 29%, 16%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h2 {
+    font-weight: 700;
+}
+.main {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 5vh;
+    margin: 150px 10px 0 10px;
+}
+.imagem-desktop {
+    display: none;
+}
+.imagem-mobile {
+    position:absolute;
+    margin-top: -110px;
+    margin-left: -8%;
+}
+.accordion {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    text-align:left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+  .active {
+      font-weight: bold;
+  }
+  .active img {
+    transform: scaleY(-1);
+  }
+  
+  .panel {
+    padding: 0 18px 0 18px;
+    display: none;
+    text-align: left;
+    max-width: 90%;  
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+
+@media screen and (min-width: 800px) {
+    .main {
+        display: flex;
+        margin: 120px 18% 0 18%;
+        padding-bottom: 0px;
+
+    }
+    .top {
+        min-width: 200px;
+        width: 500px;
+        min-height: 460px;
+        background-image: url('./images/illustration-woman-online-desktop.svg'), url('./images/bg-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 178px 190px, -310px -175px;
+    }
+    .mid {
+        text-align: left;
+        width: 500px;
+        min-height: 500px;
+    }
+    h2 {
+        margin: 70px 45px 15px;
+        font-size: 35px;
+    }
+    .imagem-mobile {
+        display: none;
+    }
+    .imagem-desktop {
+        display: unset;
+    }
+    .imagem-shadow {
+        display: none;
+    }
+    .box {
+        position: absolute;
+        margin-left: -22.3%;
+        margin-top: 200px;
+    } 
+    .woman {
+        display: none;
+    } 
+    .panel:last-of-type {
+        padding-bottom: 25px;
+    }
+}
