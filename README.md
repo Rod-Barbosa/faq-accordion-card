@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [gelatodigital.com/portfolio](https://gelatodigital.com/portfolio)
+- Solution URL: [Portfolio](https://gelatodigital.com/#portfolio)
 - Live Site URL: [https://rodrigo-accordeon-faq-card.netlify.app/](https://rodrigo-accordeon-faq-card.netlify.app/)
 
 ## My process
